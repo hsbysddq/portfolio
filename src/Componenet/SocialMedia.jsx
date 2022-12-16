@@ -6,9 +6,9 @@ function SocialMedia() {
     <>
       <div
         style={{ writingMode: "vertical-rl" }}
-        className="fixed buttom-0 w-10 bottom-0 left-10 right-auto z-10"
+        className="fixed buttom-0 w-10 bottom-0 left-10"
       >
-        <ul className="flex list-none m-0 text-white">
+        <ul className="list-none m-0 text-white flex justify-center items-center">
           <li>
             <a href="/" aria-label="Github" className="p-10">
               <FiGithub />
@@ -29,6 +29,7 @@ function SocialMedia() {
               <FiLinkedin />
             </a>
           </li>
+          <div className="border-l-2 h-[90px]"></div>
         </ul>
       </div>
 
