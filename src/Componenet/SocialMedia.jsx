@@ -6,37 +6,43 @@ function SocialMedia() {
     <>
       <div
         style={{ writingMode: "vertical-rl" }}
-        className="fixed buttom-0 w-10 bottom-0 left-10"
+        className="fixed bottom-0 px-2"
       >
-        <ul className="list-none m-0 text-white flex justify-center items-center">
-          <li>
-            <a href="/" aria-label="Github" className="p-10">
-              <FiGithub />
+        <ul className="list-none text-white flex justify-center items-center">
+          <li className="pb-8">
+            <a href="/" aria-label="Github" className="">
+              <FiGithub className="w-5 h-5" />
             </a>
           </li>
-          <li>
-            <a href="/" aria-label="Instagram" className="p-10">
-              <FiInstagram />
+
+          <li className="pb-8">
+            <a href="/" aria-label="Instagram" className="">
+              <FiInstagram className="w-5 h-5" />
             </a>
           </li>
-          <li>
-            <a href="/" aria-label="Twitter" className="p-10">
-              <FiTwitter />
+
+          <li className="pb-8">
+            <a href="/" aria-label="Twitter" className="">
+              <FiTwitter className="w-5 h-5" />
             </a>
           </li>
-          <li>
-            <a href="/" aria-label="Linkedin" className="p-10">
-              <FiLinkedin />
+
+          <li className="pb-8">
+            <a href="/" aria-label="Linkedin" className="">
+              <FiLinkedin className="w-5 h-5" />
             </a>
           </li>
-          <div className="border-l-2 h-[90px]"></div>
+
+          <div className="border-l-[1px] border-white h-24"></div>
         </ul>
       </div>
 
-      <div style={{ writingMode: "vertical-rl" }} className="flex static">
-        <p className="text-white absolute bottom-[26%] right-[4%] flex">
-          Hsbysddq@gmail.com
-        </p>
+      <div
+        style={{ writingMode: "vertical-rl" }}
+        className="flex fixed bottom-0 right-0 px-16  justify-center items-center"
+      >
+        <p className="text-[#64ffda] pb-8">Hsbysddq@gmail.com</p>
+        <div className="border-l-[1px] border-white h-24"></div>
       </div>
     </>
   )
