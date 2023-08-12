@@ -6,9 +6,9 @@ import About from "./Componenet/About"
 function App() {
   return (
     <div className="bg-navy h-screen w-screen overflow-x-hidden">
+      <Navbar />
       <div className="px-14">
         <SocialMedia />
-        <Navbar />
         <Tagline />
         <About />
       </div>

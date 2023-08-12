@@ -1,9 +1,9 @@
 function Tagline() {
   return (
     <div className="pl-36 pt-16">
-      <p className="text-[#64ffda] text-xl pb-6"> Hi, my name is</p>
-      <p className="text-6xl text-[#CCD6F6] pb-4 font-bold">Hasbi Siddiqi.</p>
-      <p className="text-6xl text-[#8892B0] pb-8 font-bold">
+      <p className="text-black text-xl pb-6"> Hi, my name is</p>
+      <p className="text-6xl text-black pb-4 font-bold">Hasbi Siddiqi.</p>
+      <p className="text-6xl text-[#424652] pb-8 font-bold">
         I build things for the web.
       </p>
 
@@ -13,7 +13,7 @@ function Tagline() {
         building accessible, human-centered products at Upstatement.
       </p>
 
-      <button className="text-[#64ffda] outline outline-offset-2 outline-1 rounded-sm px-6 py-3">
+      <button className="text-black outline outline-offset-2 outline-1 rounded-sm px-6 py-3">
         Check My Portfolio!
       </button>
     </div>
