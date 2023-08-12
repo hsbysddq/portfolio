@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="bg-black flex justify-between text-white pt-3 pb-3 px-14">
+    <nav className="bg-black  flex justify-between text-[#999999] pt-3 pb-3 px-14">
       <div className="logo p-4">
         <a href="/" className="site-tittle flex">
           Hasbi's
@@ -22,7 +22,7 @@ function Navbar() {
             <a href="/">Contact</a>
           </li>
           <li className="p-3">
-            <button className="text-xs text-[#64ffda] outline outline-offset-2 outline-1 rounded-sm px-4 py-2">
+            <button className="text-xs text-[#FFB800] outline outline-offset-2 outline-1 rounded-sm px-4 py-2">
               Resume
             </button>
           </li>
