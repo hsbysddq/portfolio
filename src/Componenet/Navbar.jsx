@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="flex justify-between text-white pt-5">
+    <nav className="bg-black flex justify-between text-white pt-3 pb-3 px-14">
       <div className="logo p-4">
         <a href="/" className="site-tittle flex">
           Hasbi's
