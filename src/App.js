@@ -1,18 +1,15 @@
 import "./App.css"
-import Navbar from "./Componenet/Navbar"
-import SocialMedia from "./Componenet/SocialMedia"
-import Tagline from "./Componenet/Tagline"
-import About from "./Componenet/About"
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
+import Homepage from "./Pages/Homepage"
+import About from "./Pages/About"
 function App() {
   return (
-    <div className="bg-black h-screen w-screen overflow-x-hidden">
-      <Navbar />
-      <div className="px-14">
-        <SocialMedia />
-        <Tagline />
-        <About />
-      </div>
-    </div>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Homepage />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
+    </Router>
   )
 }
 
