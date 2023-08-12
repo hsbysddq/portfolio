@@ -1,16 +1,18 @@
+import { Link } from "react-router-dom"
 function Navbar() {
   return (
     <nav className="bg-black  flex justify-between text-[#999999] pt-3 pb-3 px-14">
       <div className="logo p-4">
-        <a href="/" className="site-tittle flex font-poppins">
+        <Link to="/">Hasbi's</Link>
+        {/* <a href="/" className="site-tittle flex font-poppins">
           Hasbi's
-        </a>
+        </a> */}
       </div>
 
       <div className="list">
         <ul className="flex list-none gap-4 font-poppins">
           <li className="p-4">
-            <a href="/">About</a>
+            <a href="#about">About</a>
           </li>
           <li className="p-4">
             <a href="/">Experience</a>
