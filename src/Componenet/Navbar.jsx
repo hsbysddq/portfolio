@@ -2,7 +2,7 @@ import { Link } from "react-router-dom"
 function Navbar() {
   return (
     <nav className="bg-black  flex justify-between text-[#999999] pt-3 pb-3 px-14">
-      <div className="logo p-4">
+      <div className="logo p-4 hover:text-[#ffb800]">
         <Link to="/">Hasbi's</Link>
         {/* <a href="/" className="site-tittle flex font-poppins">
           Hasbi's
@@ -11,16 +11,16 @@ function Navbar() {
 
       <div className="list">
         <ul className="flex list-none gap-4 font-poppins">
-          <li className="p-4">
+          <li className="p-4 hover:text-[#ffb800]">
             <a href="#about">About</a>
           </li>
-          <li className="p-4">
+          <li className="p-4 hover:text-[#ffb800]">
             <a href="/">Experience</a>
           </li>
-          <li className="p-4">
+          <li className="p-4 hover:text-[#ffb800]">
             <a href="/">Work</a>
           </li>
-          <li className="p-4">
+          <li className="p-4 hover:text-[#ffb800]">
             <a href="/">Contact</a>
           </li>
           <li className="p-3">
