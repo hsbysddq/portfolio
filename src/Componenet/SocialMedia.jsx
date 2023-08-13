@@ -8,26 +8,26 @@ function SocialMedia() {
         style={{ writingMode: "vertical-rl" }}
         className="fixed bottom-0 px-2"
       >
-        <ul className="list-none text-white flex justify-center items-center">
-          <li className="pb-8">
+        <ul className="list-none text-white  flex justify-center items-center">
+          <li className="pb-8 hover:text-[#ffb800]">
             <a href="/" aria-label="Github" className="">
               <FiGithub className="w-5 h-5" />
             </a>
           </li>
 
-          <li className="pb-8">
+          <li className="pb-8 hover:text-[#ffb800]">
             <a href="/" aria-label="Instagram" className="">
               <FiInstagram className="w-5 h-5" />
             </a>
           </li>
 
-          <li className="pb-8">
+          <li className="pb-8 hover:text-[#ffb800]">
             <a href="/" aria-label="Twitter" className="">
               <FiTwitter className="w-5 h-5" />
             </a>
           </li>
 
-          <li className="pb-8">
+          <li className="pb-8 hover:text-[#ffb800]">
             <a href="/" aria-label="Linkedin" className="">
               <FiLinkedin className="w-5 h-5" />
             </a>
@@ -41,7 +41,9 @@ function SocialMedia() {
         style={{ writingMode: "vertical-rl" }}
         className="flex fixed bottom-0 right-0 px-16  justify-center items-center"
       >
-        <p className="text-[#ffb800] pb-8 font-poppins">Hsbysddq@gmail.com</p>
+        <p className="text-white hover:text-[#ffb800] pb-8 font-poppins">
+          Hsbysddq@gmail.com
+        </p>
         <div className="border-l-[1px] border-white h-24"></div>
       </div>
     </>
