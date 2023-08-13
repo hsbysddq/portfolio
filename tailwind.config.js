@@ -9,6 +9,9 @@ module.exports = {
       backgroundColor: {
         navy: "#8892B0f",
       },
+      backgroundImage: {
+        logo: "url('./src/img/logo.png')",
+      },
     },
   },
   plugins: [],
