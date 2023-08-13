@@ -2,6 +2,7 @@ import Navbar from "../Componenet/Navbar"
 import SocialMedia from "../Componenet/SocialMedia"
 import Tagline from "../Componenet/Tagline"
 import About from "./About"
+import Project from "./Project"
 
 const Homepage = () => {
   return (
@@ -11,6 +12,7 @@ const Homepage = () => {
         <SocialMedia />
         <Tagline />
         <About />
+        <Project />
       </div>
     </div>
   )
