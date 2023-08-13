@@ -41,7 +41,7 @@ function SocialMedia() {
         style={{ writingMode: "vertical-rl" }}
         className="flex fixed bottom-0 right-0 px-16  justify-center items-center"
       >
-        <p className="text-white pb-8 font-poppins">Hsbysddq@gmail.com</p>
+        <p className="text-[#ffb800] pb-8 font-poppins">Hsbysddq@gmail.com</p>
         <div className="border-l-[1px] border-white h-24"></div>
       </div>
     </>

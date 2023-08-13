@@ -8,7 +8,7 @@ function Tagline() {
           HELLO <br /> I BUILD THINGS <br /> FOR THE WEBSITE
         </p>
 
-        <p className="text-l text-[#BDBDBD] pb-14  text-center">
+        <p className="text-l text-[#999999] pb-14  text-center">
           I’m a software engineer specializing in building (and occasionally
           designing) <br /> exceptional digital experiences. Currently, I’m
           focused on building <br /> accessible, human-centered products at

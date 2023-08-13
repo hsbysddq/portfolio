@@ -1,13 +1,13 @@
 function About() {
   return (
-    <div className="pl-36 pt-36">
-      <div className="w-6/12 text-[#BDBDBD] font-poppins">
+    <div className="pl-36 pt-36 ">
+      <div className="w-6/12 text-[#999999] font-poppins">
         <div className="flex">
           <h1 className="text-2xl font-bold  mb-12">About Me</h1>
-          <div className="mt-4 ml-8 border-t-[1px] border-[#BDBDBD] w-2/3"></div>
+          <div className="mt-4 ml-8 border-t-[1px] border-[#999999] w-2/3"></div>
         </div>
 
-        <p className="text-lg text-[#BDBDBD]">
+        <p className="text-lg">
           Hello! My name is Brittany and I enjoy creating things that live on
           the internet. My interest in web development started back in 2012 when
           I decided to try editing custom Tumblr themes — turns out hacking
@@ -23,6 +23,15 @@ function About() {
           <br />
           <br /> Here are a few technologies I’ve been working with recently:
         </p>
+
+        <ul className="skills-list pt-8 grid grid-cols-2 gap-1">
+          <li>Java Script</li>
+          <li>React</li>
+          <li>Node Js</li>
+          <li>TypeScript</li>
+          <li>Eleventy</li>
+          <li>Wordpress</li>
+        </ul>
       </div>
     </div>
   )
