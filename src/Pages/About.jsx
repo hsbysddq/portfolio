@@ -1,10 +1,10 @@
 import { IoMdArrowDropright } from "react-icons/io"
 function About() {
   return (
-    <div className="pl-44 pt-36 flex">
+    <div className="pl-44 pt-24 flex" id="about">
       <div className="w-6/12 text-[#999999] font-poppins">
         <div className="flex">
-          <h1 className="text-2xl font-bold  mb-12">About Me</h1>
+          <h1 className="text-2xl font-bold mb-12 text-[#ffb800]">About Me</h1>
           <div className="mt-4 ml-8 border-t-[1px] border-[#999999] w-2/3"></div>
         </div>
 
