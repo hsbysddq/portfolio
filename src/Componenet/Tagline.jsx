@@ -1,6 +1,6 @@
 function Tagline() {
   return (
-    <div className="pt-24 flex flex-row font-poppins">
+    <div className="pt-24 pb-12 flex flex-row font-poppins basis-full">
       <div className="basis-1/6"></div>
 
       <div className="basis-2/3">
@@ -16,7 +16,7 @@ function Tagline() {
         </p>
 
         <div className="text-center">
-          <a href="/" className="text-center">
+          <a href="https://github.com/hsbysddq" className="text-center">
             <button className="text-[#ffb800] outline outline-offset-2 outline-1 rounded-sm px-6 py-3 text-center ">
               Check My Portfolio!
             </button>

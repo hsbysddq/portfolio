@@ -10,13 +10,21 @@ function SocialMedia() {
       >
         <ul className="list-none text-white  flex justify-center items-center">
           <li className="pb-8 hover:text-[#ffb800]">
-            <a href="/" aria-label="Github" className="">
+            <a
+              href="https://github.com/hsbysddq"
+              aria-label="Github"
+              className=""
+            >
               <FiGithub className="w-5 h-5" />
             </a>
           </li>
 
           <li className="pb-8 hover:text-[#ffb800]">
-            <a href="/" aria-label="Instagram" className="">
+            <a
+              href="https://www.instagram.com/hsbysddq"
+              aria-label="Instagram"
+              className=""
+            >
               <FiInstagram className="w-5 h-5" />
             </a>
           </li>
@@ -28,7 +36,11 @@ function SocialMedia() {
           </li>
 
           <li className="pb-8 hover:text-[#ffb800]">
-            <a href="/" aria-label="Linkedin" className="">
+            <a
+              href="https://www.linkedin.com/in/hasbi-siddiqi-061778216"
+              aria-label="Linkedin"
+              className=""
+            >
               <FiLinkedin className="w-5 h-5" />
             </a>
           </li>
@@ -41,9 +53,11 @@ function SocialMedia() {
         style={{ writingMode: "vertical-rl" }}
         className="flex fixed bottom-0 right-0 px-16  justify-center items-center"
       >
-        <p className="text-white hover:text-[#ffb800] pb-8 font-poppins">
-          Hsbysddq@gmail.com
-        </p>
+        <a href="mailto:hsby15sddq@gmail.com">
+          <p className="text-white hover:text-[#ffb800] pb-8 font-poppins">
+            hsby15sddq@gmail.com
+          </p>
+        </a>
         <div className="border-l-[1px] border-white h-24"></div>
       </div>
     </>
