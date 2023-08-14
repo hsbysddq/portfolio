@@ -1,3 +1,4 @@
+import resume from "../img/resume.pdf"
 import { FiArrowUpRight } from "react-icons/fi"
 function Navbar() {
   return (
@@ -18,7 +19,7 @@ function Navbar() {
             <a href="#about">About</a>
           </li>
           <li className="flex p-4 hover:text-[#ffb800]">
-            <a href="/">Experience</a>
+            <a href="#experience">Experience</a>
           </li>
           <li className="flex p-4 hover:text-[#ffb800]">
             <a href="#project">Work</a>
@@ -31,9 +32,14 @@ function Navbar() {
       </div>
 
       <div className="portfolio font-poppins justify-center p-3">
-        <button className="text-xs text-[#ffb800] outline outline-offset-2 outline-1 rounded-sm px-4 py-2">
+        <a
+          href={resume}
+          target="_blank"
+          rel="noreferrer"
+          className="text-xs text-[#ffb800] outline outline-offset-2 outline-1 rounded-sm px-4 py-2"
+        >
           Resume
-        </button>
+        </a>
       </div>
     </nav>
   )
