@@ -4,6 +4,7 @@ import Tagline from "../Componenet/Tagline"
 import About from "./About"
 import Project from "./Project"
 import Experience from "./Experience"
+import Footer from "../Componenet/Footer"
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
         <About />
         <Experience />
         <Project />
+        <Footer />
       </div>
     </div>
   )
