@@ -2,7 +2,7 @@ import resume from "../img/resume.pdf"
 import { FiArrowUpRight } from "react-icons/fi"
 function Navbar() {
   return (
-    <nav className="bg-transparent  flex  justify-between text-[#999999] pt-4 pb-3 px-14">
+    <nav className="fixed bg-blend-darken  xl:flex  xl:justify-between text-[#999999] pt-4 pb-3 px-14">
       <div className="logo p-4 font-poppins hover:text-[#ffb800] font-semibold text-md">
         <a
           href="/"
@@ -13,7 +13,7 @@ function Navbar() {
         </a>
       </div>
 
-      <div className="list">
+      <div className="list hidden">
         <ul className="flex list-none gap-4 font-poppins justify-center">
           <li className="flex p-4 hover:text-[#ffb800]">
             <a href="#about">About</a>
@@ -31,7 +31,7 @@ function Navbar() {
         </ul>
       </div>
 
-      <div className="portfolio font-poppins justify-center p-3">
+      <div className="hidden portfolio font-poppins justify-center p-3">
         <a
           href={resume}
           target="_blank"
