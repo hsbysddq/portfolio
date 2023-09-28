@@ -2,7 +2,7 @@ import resume from "../img/resume.pdf"
 import { FiArrowUpRight } from "react-icons/fi"
 function Navbar() {
   return (
-    <nav className="fixed bg-blend-darken  xl:flex  xl:justify-between text-[#999999] pt-4 pb-3 px-14">
+    <nav className="fixed bg-black  xl:flex  xl:justify-between text-[#999999] pt-4 pb-3 px-14">
       <div className="logo p-4 font-poppins hover:text-[#ffb800] font-semibold text-md">
         <a
           href="/"
