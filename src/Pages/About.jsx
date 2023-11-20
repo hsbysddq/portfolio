@@ -1,4 +1,6 @@
 import { IoMdArrowDropright } from "react-icons/io"
+import style from "./About.module.css"
+
 function About() {
   return (
     <div className="pl-44 pt-24 flex" id="about">
@@ -53,7 +55,11 @@ function About() {
         </ul>
       </div>
       <div className="w-6/12">
-        <div className="relative w-72 h-72 bg-transparent border-2 border-[#ffb800] mt-28 ml-16 rounded-sm transition duration-150 before:bg-white before:mt-[-16px] before:ml-[-16px] before:content-[''] before:w-72 before:h-72  before:absolute before:rounded-xl before:transition  before:duration-150 hover:before:translate-y-[-10px] hover:before:translate-x-[-10px] hover:translate-y-[6px] hover:translate-x-[6px]"></div>
+        <div className={`${style.card}`}>
+          <div className={`${style.circle}`}></div>
+          <div className={`${style.circle}`}></div>
+          <div className={`${style.inner}`}></div>
+        </div>
       </div>
     </div>
   )
