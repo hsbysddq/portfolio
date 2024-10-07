@@ -2,17 +2,17 @@ import React, { useState } from "react"
 import ContentDisplay from "../Componenet/ContentDisplay"
 
 function Ex() {
-  const [selectedContent, setSelectedContent] = useState(
-    "Klik pada salah satu komponen di sebelah kiri untuk melihat konten di sini."
-  )
-  const [selectedKey, setSelectedKey] = useState(null)
-
   const contentData = {
     academy: "Ini adalah konten untuk Academy",
     dicoding: "Ini adalah konten untuk Dicoding",
     binar: "Ini adalah konten untuk Binar",
     hackarank: "Ini adalah konten untuk Hackarank",
   }
+
+  const [selectedKey, setSelectedKey] = useState("academy")
+  const [selectedContent, setSelectedContent] = useState(
+    contentData[selectedKey]
+  )
 
   return (
     <div className="pl-56 pt-24 flex" id="experience">
