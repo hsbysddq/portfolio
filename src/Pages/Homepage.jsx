@@ -3,7 +3,7 @@ import SocialMedia from "../Componenet/SocialMedia"
 import Tagline from "../Componenet/Tagline"
 import About from "./About"
 import Project from "./Project"
-import Experience from "./Experience"
+import Ex from "./Ex"
 import Footer from "../Componenet/Footer"
 
 const Homepage = () => {
@@ -14,7 +14,7 @@ const Homepage = () => {
         <SocialMedia />
         <Tagline />
         <About />
-        <Experience />
+        <Ex />
         <Project />
         <Footer />
       </div>
