@@ -2,7 +2,7 @@ import Navbar from "../Componenet/Navbar"
 import SocialMedia from "../Componenet/SocialMedia"
 import Tagline from "../Componenet/Tagline"
 import About from "./About"
-import Project from "./Project"
+import Pro from "./Pro"
 import Ex from "./Ex"
 import Footer from "../Componenet/Footer"
 
@@ -15,7 +15,7 @@ const Homepage = () => {
         <Tagline />
         <About />
         <Ex />
-        <Project />
+        <Pro />
         <Footer />
       </div>
     </div>

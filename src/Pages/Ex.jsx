@@ -15,7 +15,7 @@ function Ex() {
   )
 
   return (
-    <div className="pl-56 pt-24 flex" id="experience">
+    <div className="pl-56 pt-24 pb-24 flex" id="experience">
       <div className="w-10/12 text-[#999999] font-poppins">
         <div className="flex">
           <h1 className="text-2xl font-bold mb-12 text-[#ffb800]">
