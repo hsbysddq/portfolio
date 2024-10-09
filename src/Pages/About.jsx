@@ -46,11 +46,11 @@ function About() {
           </li>
           <li className="flex align-center">
             <IoMdArrowDropright className="text-[#ffb800] w-5 h-5 mr-1" />
-            Eleventy
+            Next Js
           </li>
           <li className="flex align-center">
             <IoMdArrowDropright className="text-[#ffb800] w-5 h-5 mr-1" />
-            Wordpress
+            Tailwind CSS
           </li>
         </ul>
       </div>
