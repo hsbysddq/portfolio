@@ -9,10 +9,10 @@ function Tagline() {
         </p>
 
         <p className="text-l text-[#999999] pb-14  text-center">
-          I’m a software engineer specializing in building (and occasionally
-          designing) <br /> exceptional digital experiences. Currently, I’m
-          focused on building <br /> accessible, human-centered products at
-          Upstatement.
+          I’m a web developer specializing in creating visually engaging and
+          user-friendly websites. <br /> My focus is on building accessible and
+          interactive web experiences that prioritize <br /> user needs and
+          satisfaction.
         </p>
 
         <div className="text-center">
