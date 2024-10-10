@@ -11,8 +11,8 @@ function About() {
         </div>
 
         <p className="text-lg">
-          Hello! My name is Brittany and I enjoy creating things that live on
-          the internet. My interest in web development began in 2021 after
+          Hello! My name is Hasby Siddiqi and I enjoy creating things that live
+          on the internet. My interest in web development began in 2021 after
           watching a startup series, where I was captivated by the incredible
           people competing in hackathons. It turns out that watching them tackle
           complex challenges inspired me to dive into the world of web
