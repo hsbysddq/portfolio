@@ -12,9 +12,11 @@ function About() {
 
         <p className="text-lg">
           Hello! My name is Brittany and I enjoy creating things that live on
-          the internet. My interest in web development started back in 2012 when
-          I decided to try editing custom Tumblr themes — turns out hacking
-          together a custom reblog button taught me a lot about HTML & CSS!
+          the internet. My interest in web development began in 2021 after
+          watching a startup series, where I was captivated by the incredible
+          people competing in hackathons. It turns out that watching them tackle
+          complex challenges inspired me to dive into the world of web
+          development myself!
           <br />
           <br /> Fast-forward to today, and I’ve had the privilege of working at
           an advertising agency, a start-up, a huge corporation, and a
@@ -50,7 +52,7 @@ function About() {
           </li>
           <li className="flex align-center">
             <IoMdArrowDropright className="text-[#ffb800] w-5 h-5 mr-1" />
-            Tailwind CSS
+            Laravel
           </li>
         </ul>
       </div>
